@@ -35,7 +35,7 @@ function Game(){
     function getPlayers(){
         axios({
             method: "GET",
-            url: "/game/"
+            url: "http://localhost:8000/game/"
         }).then((response) => {
             setCountry(response.data[0].country)
             setAge(response.data[0].age)

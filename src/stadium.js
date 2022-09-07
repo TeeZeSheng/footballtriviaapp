@@ -45,7 +45,7 @@ function Stadium(){
     function getStadium(){
         axios({
             method:'GET',
-            url: 'http://localhost:8000/stadium/'
+            url: 'https://playfootballtrivia.herokuapp.com/stadium/'
         }).then((response) => {
             const clubInfo = response.data[0]
             setStadium(clubInfo.stadium)

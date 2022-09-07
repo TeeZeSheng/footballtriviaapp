@@ -35,7 +35,7 @@ function Game(){
     function getPlayers(){
         axios({
             method: "GET",
-            url: "http://localhost:8000/game/"
+            url: "https://playfootballtrivia.herokuapp.com/game/"
         }).then((response) => {
             setCountry(response.data[0].country)
             setAge(response.data[0].age)

@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+  background-image: url('football.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hide{
+  color: red;
+}
+
+.players{
+  background-image: url('hms.jpg');
+  background-repeat: no-repeat;
+  background-size: 900px;
+  width: 100%;
+  padding-top: 450px;
+  padding-bottom: 50px;
+  border-radius: 15px;
+  margin-left: 5px;
+  transition: width 2s;
+}
+
+.clubs{
+  background-image: url('anfield.jpg');
+  background-repeat: no-repeat;
+  background-size: 900px;
+  width: 100%;
+  padding-top: 450px;
+  padding-bottom: 50px;
+  border-radius: 15px;
+  margin-right: 5px;
+  transition: width 2s;
+  
+}
+
+.players:hover{
+  width:110%;
+}
+
+.clubs:hover{
+  width: 110%;
+}
+
+.category{
+  word-spacing: 720px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.answerform{
+  width: 15%;
+  padding: 5px;
+  display: inline-block;
+  border: 5px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.label{ 
+  font-size: 130%;
+  color: pink;
+}
+
+
+

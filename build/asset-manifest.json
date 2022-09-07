@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a6d95a5f.css",
+    "main.js": "/static/js/main.d0176cd2.js",
+    "static/js/787.349b0e60.chunk.js": "/static/js/787.349b0e60.chunk.js",
+    "static/media/anfield.jpg": "/static/media/anfield.daf37d15aafc7b4cbde8.jpg",
+    "static/media/hms.jpg": "/static/media/hms.934e426c5f1356f5b257.jpg",
+    "static/media/football.jpg": "/static/media/football.e95ce1c74044138c8782.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.a6d95a5f.css.map": "/static/css/main.a6d95a5f.css.map",
+    "main.d0176cd2.js.map": "/static/js/main.d0176cd2.js.map",
+    "787.349b0e60.chunk.js.map": "/static/js/787.349b0e60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6d95a5f.css",
+    "static/js/main.d0176cd2.js"
+  ]
+}
